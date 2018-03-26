@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">BestPic</string>
+    <string name="title_activity_view_image">ViewImage</string>
+    <string name="hint">Enter a celebrity's name</string>
+    <string name="add_tag">ADD</string>
 </resources>

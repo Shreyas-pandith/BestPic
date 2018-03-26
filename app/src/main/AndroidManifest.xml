@@ -3,6 +3,8 @@
     package="com.example.dell.bestpic">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
 
     <application
         android:allowBackup="true"
@@ -18,7 +20,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FindNews"></activity>
+        <activity android:name=".FindNews" />
+        <activity
+            android:name=".ViewImage"
+            android:label="@string/title_activity_view_image"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity"></activity>
     </application>
 
 </manifest>
